@@ -1,0 +1,71 @@
+/* styling that only effects the about page */
+/* The stucture for the comments comments
+Heading 1 - Capital Letters
+Heading 2 - Capitalized
+Body text - all lowercase
+There should no need for anything more than 2 levels of headings */
+
+/* CSS THAT APPLIES TO AN ENTIRE COLUMN */
+.staffName{
+    font-size: 1.2em;
+    color: #BE0404;
+    font-weight: bold;
+    width: 90%;
+    height: 400px;
+    margin: 0px 5%;
+    line-height: 400px;
+}
+.staffStory{
+    width: 40%;
+    padding: 0 20px;
+}
+figure{
+    text-align: center;
+}
+section figcaption{
+    font-size: 0.8em;
+    color: #6b6b6b;
+    font-style: italic;
+    text-align: center;
+}
+/* CSS THAT APPLIES TO SPECIFIC STAFF MEMBER PROFILE */
+.peters{
+    background-image: url('images/team/harry-peters-shaded.jpg'); /*Vanilla filter and -100 color adjustment*/
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.staffName.peters:hover{
+    background-image: url('images/team/harry-peters.jpg');/* Changing the image */
+    color: rgba(190, 4, 4, 0); /* Making the text transparent */ 
+}
+.vandyk{
+    background-image: url('images/team/mary-van-dyk-shaded.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.staffName.vandyk:hover{
+    background-image: url('images/team/mary-van-dyk.jpg');/* Changing the image */
+    color: rgba(190, 4, 4, 0); /* Making the text transparent */
+}
+.govender{
+    background-image: url('images/team/raj-govender-shaded.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.staffName.govender:hover{
+    background-image: url('images/team/raj-govender.jpg');/* Changing the image */
+    color: rgba(190, 4, 4, 0); /* Making the text transparent */
+}
+.lungu{
+    background-image: url('images/team/siyabonga-lungu-shaded.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.staffName.lungu:hover{
+    background-image: url('images/team/siyabonga-lungu.jpg');/* Changing the image */
+    color: rgba(190, 4, 4, 0); /* Making the text transparent */
+}

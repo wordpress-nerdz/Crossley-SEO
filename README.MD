@@ -1,4 +1,3 @@
-#Website
 A fun and fictional website that was created for practise.
 
 Note: 
